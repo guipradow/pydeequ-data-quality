@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "data-quality-deequ"
+version = "0.1.0"
+description = ""
+authors = ["Guilherme Prado <guizmk@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyspark = "^3.5.1"
+ipykernel = "^6.29.4"
+pydeequ = "^1.2.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
